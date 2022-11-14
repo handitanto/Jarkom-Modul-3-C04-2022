@@ -16,12 +16,7 @@
 - [Nomor 1](#nomor-1)
 - [Nomor 2](#nomor-2)
 - [Nomor 2 Lanjutan](#nomor-2-lanjutan)
-- [Nomor 3](#nomor-3)
-- [Nomor 4](#nomor-4)
-- [Nomor 5](#nomor-5)
-- [Nomor 6](#nomor-6)
-- [Nomor 7](#nomor-7)
----
+
 ### Setting
 Pada langkah awal dilakukan setting GNS sesuai dengan modul yang telah diberikan. Konfigurasi yang digunakan adalah sebagai berikut:
 
