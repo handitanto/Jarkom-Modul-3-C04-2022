@@ -10,12 +10,8 @@
 
 ---
 
-## Daftar Isi
-
-- [Setting](#setting)
-- [Nomor 1](#nomor-1)
-- [Nomor 2](#nomor-2)
-- [Nomor 2 Lanjutan](#nomor-2-lanjutan)
+### Topologi
+<img alt="topologi 3" width="659" src="https://user-images.githubusercontent.com/80630201/209267067-e1b6103c-1a85-4d37-a84a-7c49cbd6216d.png">
 
 ### Setting
 Pada langkah awal dilakukan setting GNS sesuai dengan modul yang telah diberikan. Konfigurasi yang digunakan adalah sebagai berikut:
@@ -224,6 +220,7 @@ Client mendapatkan DNS dari WISE dan client dapat terhubung dengan internet mela
 jalankan dhcp server dengan `service isc-dhcp-server restart`
 
 ##### Test Client di Kemono Park
+![nomor 5 c04](https://user-images.githubusercontent.com/80630201/209267070-5fed42ab-e904-493e-ab36-72bcfea5f884.jpg)
 
 ### Nomor 6
 Lama waktu DHCP server meminjamkan alamat IP kepada Client yang melalui Switch1 selama 5 menit sedangkan pada client yang melalui Switch3 selama 10 menit. Dengan waktu maksimal yang dialokasikan untuk peminjaman alamat IP selama 115 menit
@@ -269,11 +266,12 @@ loid-work.com
 franky-work.com
 
 acl WHITELISTS dstdomain "/etc/squid/restrict-sites.acl"
-```
 
 ## Test Proxy
 install lynx pada semua proxy client dengan `apt-get install lynx -y`
-- pada `http://example.com`
+- pada `http://example.com`<br>
+![proxy 1 c04](https://user-images.githubusercontent.com/80630201/209267073-3757fe94-610a-475b-becf-eed000ff52ea.jpg) <br>
 
 
-- pada `https://example.com`
+- pada `https://example.com` <br>
+![proxy 2](https://user-images.githubusercontent.com/80630201/209267075-f1b6327b-df28-4e08-8b18-2f9330435efb.jpg)
